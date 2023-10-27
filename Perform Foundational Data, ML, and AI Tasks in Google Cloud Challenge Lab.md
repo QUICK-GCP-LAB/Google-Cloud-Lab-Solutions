@@ -112,7 +112,7 @@ curl -s -H 'Content-Type: application/json' \
 curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TOKEN" 'https://videointelligence.googleapis.com/v1/operations/OPERATION_FROM_PREVIOUS_REQUEST' > result1.json
 ```
 
-### Congratulations 🎉 for completing the Challenge Lab!
+### Congratulations 🎉 for completing the Challenge Lab !
 
 *You have successfully demonstrated your skills and determination.*
 
