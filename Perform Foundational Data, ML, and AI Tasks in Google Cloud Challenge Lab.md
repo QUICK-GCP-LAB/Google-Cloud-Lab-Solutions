@@ -33,7 +33,7 @@ export TASK_4_BUCKET=
 ## Task 3: Use the Google Cloud Speech API
 
 ```
-gcloud iam service-accounts create 	Awesome \
+gcloud iam service-accounts create Awesome \
   --display-name "my natural language service account"
 
 gcloud iam service-accounts keys create ~/key.json \
