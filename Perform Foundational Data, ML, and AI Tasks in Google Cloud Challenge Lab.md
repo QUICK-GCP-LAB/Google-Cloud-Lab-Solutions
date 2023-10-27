@@ -104,9 +104,9 @@ curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TO
 
 ### Congratulations 🎉 for completing the Challenge Lab !
 
-*You have successfully demonstrated your skills and determination.*
+##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
-*Well done!*
+#### *Well done!*
 
 #### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
 
