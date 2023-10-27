@@ -1,5 +1,7 @@
 # Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab || [GSP323](https://www.cloudskillsboost.google/focuses/11044?parent=catalog) ||
 
+## Solution [here]()
+
 ## Task - 1 : Run a simple Dataflow job
 
 ```
@@ -55,7 +57,7 @@ gcloud ml language analyze-entities --content="Old Norse texts portray Odin as o
 gcloud auth login --no-launch-browser
 ```
 
-## TASK 4 BUCKET_NAME
+## Task 4: Use the Cloud Natural Language API
 
 ```
 gsutil cp result.json $TASK_4_BUCKET
@@ -118,4 +120,6 @@ curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TO
 
 *Well done!*
 
-#### [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
+
+# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
