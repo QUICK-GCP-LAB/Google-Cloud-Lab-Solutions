@@ -12,11 +12,7 @@ gsutil mb gs://REPLACE_HERE
 ```
 ```
 gsutil cp gs://cloud-training/gsp323/lab.csv  .
-```
-```
 gsutil cp gs://cloud-training/gsp323/lab.schema .
- ```
- ```
 cat lab.schema
 ```
 
@@ -39,18 +35,14 @@ export TASK_4_BUCKET=
 ```
 gcloud iam service-accounts create 	Awesome \
   --display-name "my natural language service account"
-```
-```
+
 gcloud iam service-accounts keys create ~/key.json \
   --iam-account Awesome@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com
-```
-```
+
 export GOOGLE_APPLICATION_CREDENTIALS="/home/$USER/key.json"
-```
-```
+
 gcloud auth activate-service-account Awesome@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com --key-file=$GOOGLE_APPLICATION_CREDENTIALS
-```
-```
+
 gcloud ml language analyze-entities --content="Old Norse texts portray Odin as one-eyed and long-bearded, frequently wielding a spear named Gungnir and wearing a cloak and a broad hat." > result.json
 ```
 ```
@@ -78,20 +70,16 @@ EOF
 ```
 curl -s -X POST -H "Content-Type: application/json" --data-binary @request.json \
 "https://speech.googleapis.com/v1/speech:recognize?key=${API_KEY}" > result.json
-```
-```
+
 gsutil cp result.json $TASK_3_BUCKET
 ```
 ```
 gcloud iam service-accounts create lol
-```
-```
+
 gcloud iam service-accounts keys create key.json --iam-account lol@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com
-```
-```
+
 gcloud auth activate-service-account --key-file key.json
-```
-```
+
 export ACCESS_TOKEN=$(gcloud auth print-access-token)
 ```
 ```
