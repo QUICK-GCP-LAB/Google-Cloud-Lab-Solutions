@@ -1,6 +1,6 @@
 # Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab || [GSP323](https://www.cloudskillsboost.google/focuses/11044?parent=catalog) ||
 
-## Solution [here]()
+## Solution [here](https://youtu.be/q_PxFoQwMM8)
 
 ## Task - 1 : Run a simple Dataflow job
 
