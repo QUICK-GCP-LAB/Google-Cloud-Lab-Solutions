@@ -74,9 +74,9 @@ curl -s -X POST -H "Content-Type: application/json" --data-binary @request.json 
 gsutil cp result.json $TASK_3_BUCKET
 ```
 ```
-gcloud iam service-accounts create lol
+gcloud iam service-accounts create quick-gcp-lab
 
-gcloud iam service-accounts keys create key.json --iam-account lol@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com
+gcloud iam service-accounts keys create key.json --iam-account quick-gcp-lab@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com
 
 gcloud auth activate-service-account --key-file key.json
 
