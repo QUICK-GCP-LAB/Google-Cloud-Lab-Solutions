@@ -36,7 +36,7 @@ gcloud compute instances create vm-2 --machine-type=e2-standard-2 --service-acco
 ```
 ## Task 4. Create a custom role using a YAML file
 
-``````
+```
 cat > role-definition.yaml <<EOF
 title: Custom Role
 description: Custom role with cloudsql.instances.connect and cloudsql.instances.get permissions
@@ -44,9 +44,10 @@ includedPermissions:
 - cloudsql.instances.connect
 - cloudsql.instances.get
 EOF
-
+```
+```
 gcloud iam roles create customRole --project=$PROJECT_ID --file=role-definition.yaml
-``````
+```
 ## Task 5. Use the client libraries to access BigQuery from a service account
 
 ```
@@ -61,8 +62,8 @@ gcloud projects add-iam-policy-binding $PROJECT_ID --member serviceAccount:$SA -
 gcloud compute instances create bigquery-instance --machine-type=e2-medium --service-account $SA --scopes "https://www.googleapis.com/auth/compute"
 
 export PROJECT_ID=$(gcloud config get-value project)
-``````
-``````
+```
+```
 sudo apt-get update
 
 sudo apt-get install -y git python3-pip
@@ -76,8 +77,8 @@ pip3 install pyarrow
 pip3 install pandas
 
 pip3 install db-dtypes
-``````
-``````
+```
+```
 echo "
 from google.auth import compute_engine
 from google.cloud import bigquery
@@ -96,8 +97,8 @@ client = bigquery.Client(
     credentials=credentials)
 print(client.query(query).to_dataframe())
 " > query.py
-``````
-``````
+```
+```
 pip3 install --upgrade pip
 
 pip3 install google-cloud-bigquery
@@ -109,7 +110,7 @@ pip3 install pandas
 pip3 install db-dtypes
 
 python3 query.py
-``````
+```
 
 ### Congratulations 🎉 for completing the Challenge Lab !
 
