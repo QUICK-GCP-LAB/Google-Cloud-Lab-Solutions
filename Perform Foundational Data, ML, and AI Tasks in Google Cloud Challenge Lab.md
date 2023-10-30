@@ -18,7 +18,7 @@ cat lab.schema
 
 ## Task - 2 : Run a simple Dataproc job
 
-### `For Task 2 Follw Video`
+### `For Task 2 Follow Video`
 
 ```
 export API_KEY=
