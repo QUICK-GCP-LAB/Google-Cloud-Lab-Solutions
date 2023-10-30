@@ -61,7 +61,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID --member serviceAccount:$SA -
 
 gcloud compute instances create bigquery-instance --machine-type=e2-medium --service-account $SA --scopes "https://www.googleapis.com/auth/compute"
 ```
-> SSH into the bigquery-instance and install dependencies; use the following code to create a Python file: 
+##### SSH into the `bigquery-instance` and install dependencies; use the following code to create a Python file: 
 
 ```
 export PROJECT_ID=$(gcloud config get-value project)
