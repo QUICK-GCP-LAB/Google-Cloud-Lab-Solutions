@@ -60,7 +60,8 @@ gcloud projects add-iam-policy-binding $PROJECT_ID --member serviceAccount:$SA -
 gcloud projects add-iam-policy-binding $PROJECT_ID --member serviceAccount:$SA --role=roles/bigquery.user
 
 gcloud compute instances create bigquery-instance --machine-type=e2-medium --service-account $SA --scopes "https://www.googleapis.com/auth/compute"
-
+```
+```
 export PROJECT_ID=$(gcloud config get-value project)
 ```
 ```
