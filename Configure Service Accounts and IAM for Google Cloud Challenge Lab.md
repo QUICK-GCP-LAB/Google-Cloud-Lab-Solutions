@@ -4,12 +4,14 @@
 
 ```
 gcloud auth login
-
+```
+```
 export PROJECT_ID=$(gcloud config get-value project)
 ```
 ```
 gcloud config set compute/region [REGION]
-
+```
+```
 gcloud config set compute/zone [ZONE]
 ```
 
