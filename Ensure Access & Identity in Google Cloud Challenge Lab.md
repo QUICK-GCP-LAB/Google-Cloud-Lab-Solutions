@@ -42,7 +42,7 @@ gcloud iam roles $CUSTOM_SECURITY --project $DEVSHELL_PROJECT_ID \
 * *Service account name* : `orca-private-cluster-sa` 
 * *then click* `create and add roles`
 
-* *Roles*:
+* *Roles* :
 1. *orca_storage_update*
 2. *Monitoring Viewer*
 3. *Monitoring Metric Writer*
