@@ -2,7 +2,7 @@
 
 ## Solution [here](https://youtu.be/q_PxFoQwMM8)
 
-## Task - 1 : Run a simple Dataflow job
+## Task  1 : Run a simple Dataflow job
 
 ```
 bq mk REPLACE_HERE
@@ -16,7 +16,7 @@ gsutil cp gs://cloud-training/gsp323/lab.schema .
 cat lab.schema
 ```
 
-## Task - 2 : Run a simple Dataproc job
+## Task  2 : Run a simple Dataproc job
 
 ### `For Task 2 Follow Video`
 
