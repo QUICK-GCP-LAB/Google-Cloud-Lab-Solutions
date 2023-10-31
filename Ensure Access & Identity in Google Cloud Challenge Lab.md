@@ -1,4 +1,5 @@
-# Ensure Access & Identity in Google Cloud: Challenge Lab || [GSP342](https://www.cloudskillsboost.google/focuses/14572?parent=catalog) ||
+# Ensure Access & Identity in Google Cloud: Challenge Lab 
+# || [GSP342](https://www.cloudskillsboost.google/focuses/14572?parent=catalog) ||
 
 ## Solution [here]()
 
