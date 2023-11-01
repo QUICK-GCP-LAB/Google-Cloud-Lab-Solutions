@@ -58,6 +58,9 @@ gcloud container clusters create $CLUSTER --num-nodes 1 --master-ipv4-cidr=172.1
 
 ### Task 5. Deploy an application to a private Kubernetes Engine cluster.
 
+* *Navigate to* `Compute Engine`
+
+* Click on the `SSH` button for the `orca-jumphost instance`.
 ```
 sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
 echo "export USE_GKE_GCLOUD_AUTH_PLUGIN=True" >> ~/.bashrc
