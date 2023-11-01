@@ -60,7 +60,7 @@ gcloud container clusters create $CLUSTER --num-nodes 1 --master-ipv4-cidr=172.1
 
 * *Navigate to* -> `Compute Engine`
 
-* `orca-jumphost instance` -> Click On `SSH`.
+* Click `SSH` On -> `orca-jumphost instance` .
 ```
 sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
 echo "export USE_GKE_GCLOUD_AUTH_PLUGIN=True" >> ~/.bashrc
