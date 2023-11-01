@@ -32,7 +32,7 @@ includedPermissions:
   - storage.objects.create
 ```
 ```
-gcloud iam roles $CUSTOM_SECURITY --project $DEVSHELL_PROJECT_ID \
+gcloud iam roles create $CUSTOM_SECURITY --project $DEVSHELL_PROJECT_ID \
 --file role-definition.yaml
 ```
 
