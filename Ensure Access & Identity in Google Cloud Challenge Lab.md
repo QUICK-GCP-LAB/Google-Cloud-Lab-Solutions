@@ -36,19 +36,19 @@ gcloud iam roles $CUSTOM_SECURITY --project $DEVSHELL_PROJECT_ID \
 --file role-definition.yaml
 ```
 
-### Task 2. Create a service account. & Task 3. Bind a custom security role to a service account.
+### Task 2. Create a service account.
 
-* *Navigate to IAM & Admin* -> `Service Accounts` -> `CREATE SERVICE ACCOUNT`
-* *Service account name* : `orca-private-cluster-sa` 
-* *then click* `create and add roles`
+```
+gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID --member serviceAccount:$SVC_ACC@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com --role roles/monitoring.viewer
 
-* *Roles* :
-1. *orca_storage_update*
-2. *Monitoring Viewer*
-3. *Monitoring Metric Writer*
-4. *Logs Writer*
+gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID --member serviceAccount:$SVC_ACC@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com --role roles/monitoring.metricWriter
 
-* `Click CONTINUE` -> `DONE`
+gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID --member serviceAccount:$SVC_ACC@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com --role roles/logging.logWriter
+```
+### Task 3. Bind a custom security role to a service account.
+```
+gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID --member serviceAccount:$SVC_ACC@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com --role projects/$DEVSHELL_PROJECT_ID/roles/$CUSTOM_SECURITY
+```
 
 ### Task 4. Create and configure a new Kubernetes Engine private cluster
 
