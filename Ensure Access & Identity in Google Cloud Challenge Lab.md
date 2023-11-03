@@ -4,14 +4,8 @@
 
 ```
 export CUSTOM_SECURITY=
-```
-```
 export SVC_ACC=
-```
-```
 export CLUSTER=
-```
-```
 export ZONE=
 ```
 ### Task 1. Create a custom security role.
