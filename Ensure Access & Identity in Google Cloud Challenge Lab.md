@@ -1,6 +1,6 @@
 # Ensure Access & Identity in Google Cloud: Challenge Lab || [GSP342](https://www.cloudskillsboost.google/focuses/14572?parent=catalog) ||
 
-## Solution [here]()
+## Solution [here](https://youtu.be/yY6f63UPPHo)
 
 ```
 export CUSTOM_SECURITY=
