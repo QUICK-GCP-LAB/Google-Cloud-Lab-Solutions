@@ -1,28 +1,28 @@
-# Develop with Apps Script and AppSheet: Challenge Lab
+# Develop with Apps Script and AppSheet: Challenge Lab || [ARC126](https://www.cloudskillsboost.google/focuses/66584?parent=catalog) ||
 
-## Solution here
+## Solution [here]()
 
 ### Task 1. Create and customize an app
 
-1. After you've logged into `AppSheet`, open the `ATM Maintenance` app in a new browser tab.
+1. After you've logged into `AppSheet`, open the [ATM Maintenance app](https://www.appsheet.com/template/AppDef?appName=ATMMaintenance-925818016) in a new browser tab.
 
-2. In the left navigation menu, click `Copy app` (copy).
+2. In the left navigation menu, click `Copy app`.
 
-3. In the Copy app form, for App name, type `ATM Maintenance Tracker`, and leave the remaining settings as their defaults.
+3. In the `Copy app` form, for `App name`, type `ATM Maintenance Tracker`, and leave the remaining settings as their defaults.
 
-4. Click `Copy` app.
+4. Click `Copy app`.
 
 5. Click `Customize your app` to go to the `AppSheet editor`.
 
-6.To open the Chat app builder, select Chat apps (chat icon) in the left navigation menu.
+6.To open the `Chat app` builder, select Chat apps in the left navigation menu.
 
-7. Click Create.
+7. Click `Create`.
 
-8. In the Enable card, click Next to automatically configure your project.
+8. In the `Enable` card, click `Next` to automatically configure your project.
 
-9. In the Customize card, click First message to expand the section.
+9. In the `Customize` card, click `First message` to expand the section.
 
-10. For message text, change the greeting to: Welcome to the ATM Maintenance Tracker app. What do you want to do today?
+10. For message text, change the greeting to: `Welcome to the ATM Maintenance Tracker app. What do you want to do today?`
 
 11. In the list of app cards, click My Tickets, and then select Issues Reported By Me in the dropdown to change the chat card.
 
