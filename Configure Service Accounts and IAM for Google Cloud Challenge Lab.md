@@ -60,8 +60,8 @@ SSA=$(gcloud iam service-accounts list --format="value(email)" --filter "display
 gcloud projects add-iam-policy-binding $PROJECTID --member=serviceAccount:$SSA --role=roles/bigquery.dataViewer
  
 gcloud projects add-iam-policy-binding $PROJECTID --member=serviceAccount:$SSA --role=roles/bigquery.user
- 
- 
+ ```
+ ```
 gcloud compute instances create bigquery-instance --service-account=$SSA --scopes=https://www.googleapis.com/auth/bigquery --zone=$ZONE
 ```
 ##### SSH into the `bigquery-instance` and run all commands
