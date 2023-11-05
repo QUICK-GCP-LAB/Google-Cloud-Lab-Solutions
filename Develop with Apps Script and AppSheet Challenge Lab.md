@@ -14,7 +14,7 @@
 
 5. Click `Customize your app` to go to the `AppSheet editor`.
 
-6.To open the `Chat app` builder, select Chat apps in the left navigation menu.
+6. To open the `Chat app` builder, select Chat apps in the left navigation menu.
 
 7. Click `Create`.
 
