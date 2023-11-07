@@ -121,7 +121,7 @@ New ticket  | Adds Only  | Tickets
 
 1. Click this [Google Apps Script editor](https://script.google.com/create) link to open the Google Apps Script online editor.
 
-2. Click `Untitled project` (the current name).
+2. Click `Untitled project`.
 
 3. In the `Edit project name` dialog, rename the project to `Attendance Bot`, and then click `Rename`.
 
