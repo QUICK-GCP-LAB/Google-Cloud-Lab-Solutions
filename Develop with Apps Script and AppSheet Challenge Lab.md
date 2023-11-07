@@ -168,3 +168,13 @@ New ticket  | Adds Only  | Tickets
 24. After the changes are saved, scroll to the top of the `Configuration` dialog to update the `App Status` to `LIVE – available to users`. You may have to reload the browser page to see the `App Status` field.
 
 25. Click `SAVE` again.
+
+### Congratulations 🎉 for completing the Challenge Lab !
+
+##### *You Have Successfully Demonstrated Your Skills And Determination.*
+
+#### *Well done!*
+
+#### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
+
+# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
