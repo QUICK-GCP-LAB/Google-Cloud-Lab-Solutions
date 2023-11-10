@@ -26,19 +26,21 @@
 
 11. In the list of *Chat card menu*, click `My Tickets`, and then select `Issues Reported By Me` in the dropdown to change the chat card.
 
-12. To remove the `Manage Techs` view, click `Delete`.
+12. Click `Save` at the top of your AppSheet window.
 
-13. In the `Actions` section, click `+ New action`.
+13. To remove the `Manage Techs` view, click `Delete`.
 
-14. Select `Slash command: Open app view` from the list of options.
+14. In the `Actions` section, click `+ New action`.
 
-15. Select `Issues Reported By Me` from the `App View` dropdown.
+15. Select `Slash command: Open app view` from the list of options.
 
-16. Type `/myissue`s for the `Name`.
+16. Select `Issues Reported By Me` from the `App View` dropdown.
 
-17. In the `Description` field, type `Lists tickets that include your email address`.
+17. Type `/myissue`s for the `Name`.
 
-18. Click `Next`.
+18. In the `Description` field, type `Lists tickets that include your email address`.
+
+19. Click `Next`.
 
 ### Task 2. Add and test an automation
 
@@ -78,15 +80,31 @@
 
 18. Click `Add people & apps`, select the `ATM Maintenance Tracker` app from the list, and then click `Add`.
 
-19. Return to your AppSheet tab and select `Chat apps` in the left navigation menu to open the Chat app builder.
+19. To create a new ticket, click `Open in new window` option next to All Tickets and then click `New Ticket`.
 
-20. Click the `Customize` card in the Chat app editor.
+20. Enter any information that you like in the `First Name` and `Last Name` fields.
 
-21. Click `+ New action`, and then select `Build my own...`
+21. For `ATM ID`, type `ABC123`.
 
-22. Click `Configure event`, and then `click Create a custom event`.
+22. For `Email`, use the lab email address you used to log into AppSheet.
 
-23. In the `Settings` panel, provide the following information:
+23. For the `Symptom` field, select `Card reader not working` from the dropdown.
+
+24. Select the `N` (No) option for `Resolved`.
+
+25. Leave the other fields as their defaults, and then click `Save`.
+
+26. To view your updated ticket list, type `/myissues` in the reply area, and then click enter.
+
+27. Return to your AppSheet tab and select `Chat apps` in the left navigation menu to open the Chat app builder.
+
+28. Click the `Customize` card in the Chat app editor.
+
+29. Click `+ New action`, and then select `Build my own...`
+
+30. Click `Configure event`, and then `click Create a custom event`.
+
+31. In the `Settings` panel, provide the following information:
 
 Event Name  | Event Type | Table
 ----------- | ---------- | ----------
@@ -168,6 +186,14 @@ New ticket  | Adds Only  | Tickets
 24. After the changes are saved, scroll to the top of the `Configuration` dialog to update the `App Status` to `LIVE – available to users`. You may have to reload the browser page to see the `App Status` field.
 
 25. Click `SAVE` again.
+
+26. Click the [Google Chat](https://chat.google.com/) link to open Google Chat.
+
+27. Select `Start a chat` > `Find apps` in the `Chat` section.
+
+28. From the list, search for `Attendance bot`, from the results, select the `Attendance Bot`, Apps Script lab bot that you created, and click `Chat`.
+
+   #### NOTE: When the direct message thread opens, you should see a message from the bot `thanking you for adding it to a DM`.
 
 ### Congratulations 🎉 for completing the Challenge Lab !
 
