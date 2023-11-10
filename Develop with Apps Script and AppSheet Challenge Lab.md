@@ -36,7 +36,7 @@
 
 16. Select `Issues Reported By Me` from the `App View` dropdown.
 
-17. Type `/myissue`s for the `Name`.
+17. Type `/myissues` for the `Name`.
 
 18. In the `Description` field, type `Lists tickets that include your email address`.
 
