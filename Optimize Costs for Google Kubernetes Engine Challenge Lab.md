@@ -70,9 +70,10 @@ KUBE_EDITOR="nano" kubectl edit deployment/frontend --namespace dev
 
 ### Task 4. Autoscale from estimated traffic
 
+#### Replace `MAX REPLICAS`
 ```
 kubectl autoscale deployment frontend --cpu-percent=50 \
-   --min=1 --max=[Max Replicas] --namespace dev
+   --min=1 --max=[MAX REPLICAS] --namespace dev
 ```
 ```
 kubectl get hpa --namespace dev
