@@ -1,6 +1,6 @@
 # Develop with Apps Script and AppSheet: Challenge Lab || [ARC126](https://www.cloudskillsboost.google/focuses/66584?parent=catalog) ||
 
-## Solution [here]()
+## Solution [here](https://youtu.be/5UPVz9_Vwek)
 
 ### Task 1. Create and customize an app
 
