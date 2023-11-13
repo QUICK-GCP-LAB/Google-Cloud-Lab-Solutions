@@ -4,11 +4,9 @@
 
  ```
 export ZONE=
- ```
-  ```
+ 
 export CLUSTER=
- ```
-```
+ 
 export POOL=
  ```
 ### Task 1. Create our cluster and deploy our app
