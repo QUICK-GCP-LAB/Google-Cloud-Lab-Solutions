@@ -1,6 +1,6 @@
 # Optimize Costs for Google Kubernetes Engine: Challenge Lab || [GSP343](https://www.cloudskillsboost.google/focuses/16327?parent=catalog) ||
 
-## Solution [here]()
+## Solution [here](https://youtu.be/AxXcduN4xgI)
 
  ```
 export ZONE=
