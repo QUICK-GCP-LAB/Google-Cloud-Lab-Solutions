@@ -24,7 +24,7 @@ nano values.json
 7. `Copy` the access token to use in the next step.
 
 ```
-export OAUTH2_TOKEN=<YOUR_TOKEN>
+export OAUTH2_TOKEN=
 ```
 ```
 export PROJECT_ID=$(gcloud config get-value project)
@@ -37,7 +37,7 @@ curl -X POST --data-binary @values.json \
 ```
 nano values.json
 ```
-* #### Change Name Of Bucket
+* #### Change The Bucket Name
 
 ```
 curl -X POST --data-binary @values.json \
@@ -54,7 +54,7 @@ curl -X POST --data-binary @values.json \
 realpath demo-image
 ```
 ```
-export OBJECT=<DEMO_IMAGE_PATH>
+export OBJECT=
 ```
 ```
 export BUCKET_NAME_1=$(gcloud config get-value project)-bucket-1
