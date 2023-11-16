@@ -37,8 +37,6 @@ curl -X POST --data-binary @values.json \
 ```
 nano values.json
 ```
-* #### Change The Bucket Name
-
 ```
 curl -X POST --data-binary @values.json \
     -H "Authorization: Bearer $OAUTH2_TOKEN" \
