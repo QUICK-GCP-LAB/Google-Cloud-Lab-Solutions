@@ -81,6 +81,12 @@ curl -X POST \
 nano quickgcplab.json
 ```
 ```
+{
+  "entity": "allUsers",
+  "role": "READER"
+}
+```
+```
 curl -X POST --data-binary @quickgcplab.json \
   -H "Authorization: Bearer $OAUTH2_TOKEN" \
   -H "Content-Type: application/json" \
