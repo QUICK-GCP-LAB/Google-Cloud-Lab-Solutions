@@ -68,7 +68,7 @@ gcloud compute networks subnets update default \
 
 * Once the instance is created, click on the `SSH` button to access the `attacker-instance`.
 
-* Paste The Follwing Commands in `attacker-instance` SSH
+* Paste The Follwing Commands in `attacker-instance` SSH.
 
 ```
 export ZONE=
