@@ -41,11 +41,11 @@ gcloud dns --project=$DEVSHELL_PROJECT_ID policies create dns-test-policy --desc
 
 gcloud compute ssh --zone "$ZONE" "instance-1" --tunnel-through-iap --project "$DEVSHELL_PROJECT_ID" --quiet --command "gcloud projects get-iam-policy \$(gcloud config get project) && curl etd-malware-trigger.goog"
 ```
+* Check The Score For Task 2 Do Not Move Forward Until You Get Score & Green Check.
+
 ```
 gcloud compute instances delete instance-1 --zone=$ZONE --quiet
 ```
-
-* Check The Score For Task 2 Do Not Move Forward Until You Get Score & Green Check.
 
 ### Task 4. Build an environment for detecting container threats
 
