@@ -45,7 +45,7 @@ gcloud compute ssh --zone "$ZONE" "instance-1" --tunnel-through-iap --project "$
 gcloud compute instances delete instance-1 --zone=$ZONE --quiet
 ```
 
-* Check The Score For Task 2 Do Not Move Forward Until You Get Score & Green Check
+* Check The Score For Task 2 Do Not Move Forward Until You Get Score & Green Check.
 
 ### Task 4. Build an environment for detecting container threats
 
@@ -101,25 +101,27 @@ gcloud container clusters create test-cluster \
 kubectl describe daemonsets container-watcher -n kube-system
 ```
 
-It will take a few minutes for an output to be generated. If you get a message similar to the following:  |
------------ |
-*Error from server (NotFound): daemonsets.apps "container-watcher" not found*  |
+* It will take a few minutes for an output to be generated. If you get a message similar to the following: ( *do not copy it* ).
+```
+Error from server (NotFound): daemonsets.apps "container-watcher" not found
+```
 
-Wait a moment and rerun the command. After a few minutes, you should receive the following output:  |
------------ |
-*Name:*           *container-watcher*
-*Selector:*       *container-watcher-unique-id=adbc885a,k8s-app=container-watcher*
-*Node-Selector:  kubernetes.io/os=linux*
-*Labels:         BUILD_BASELINE_CHANGELIST=579306457*
-*k8s-app=container-watcher*
-*ktd-version=ktd_release*
-*watcher_20231103.01_RC00*
-*Annotations:    deprecated.daemonset.template generation: 1*
-*Desired Number of NodesScheduled: 1*
-*Current Number of Nodes Scheduled: 1*
-*Number of Nodes Scheduled with Up-to-date Pods: 1*
+* Wait a moment and rerun the command. After a few minutes, you should receive the following output: ( *do not copy it* ).
 
-* After You Getting Out Put PAste This Command
+```
+Name:           container-watcher
+Selector:       container-watcher-unique-id=adbc885a,k8s-app=container-watcher
+Node-Selector:  kubernetes.io/os=linux
+Labels:         BUILD_BASELINE_CHANGELIST=579306457
+                k8s-app=container-watcher
+                ktd-version=ktd_release.watcher_20231103.01_RC00
+Annotations:    deprecated.daemonset.template.generation: 1
+Desired Number of Nodes Scheduled: 1
+Current Number of Nodes Scheduled: 1
+Number of Nodes Scheduled with Up-to-date Pods: 1
+```
+
+* After You Getting Out Put Paste This Command
 
 ```
 kubectl create deployment apache-deployment \
