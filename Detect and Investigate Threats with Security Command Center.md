@@ -101,12 +101,12 @@ gcloud container clusters create test-cluster \
 kubectl describe daemonsets container-watcher -n kube-system
 ```
 
-* It will take a few minutes for an output to be generated. If you get a message similar to the following: ( *do not copy it* ).
+* It will take a few minutes for an output to be generated. If you get a message similar to the following: ( *Do Not Copy It* ).
 ```
 Error from server (NotFound): daemonsets.apps "container-watcher" not found
 ```
 
-* Wait a moment and rerun the command. After a few minutes, you should receive the following output: ( *do not copy it* ).
+* Wait a moment and rerun the command. After a few minutes, you should receive the following output: ( *Do Not Copy It* ).
 
 ```
 Name:           container-watcher
