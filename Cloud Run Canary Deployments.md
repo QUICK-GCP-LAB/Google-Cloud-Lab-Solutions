@@ -1,6 +1,6 @@
 # Cloud Run Canary Deployments || [GSP1078](https://www.cloudskillsboost.google/focuses/52827?parent=catalog) ||
 
-## Solution [here]()
+## Solution [here](https://youtu.be/answKOBoic4)
 
 ### Task 1. Preparing your environment
 
