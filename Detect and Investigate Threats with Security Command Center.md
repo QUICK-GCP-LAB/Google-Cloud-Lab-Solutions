@@ -1,6 +1,6 @@
 # Detect and Investigate Threats with Security Command Center
 
-## Solution [here]()
+## Solution [here](https://youtu.be/7yLgMgC4Dbo)
 
 1. In the Google Cloud Console open the navigation menu and select `IAM & Admin > Audit Logs`.
 
