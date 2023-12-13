@@ -24,8 +24,8 @@ gcloud compute instances create $INSTANCE \
 
 ```
 gcloud container clusters create nucleus-backend \
-    --num-nodes 1 \
-    --zone $ZONE \
+    --num-nodes=1 \
+    --zone=$ZONE
 ```
 ```
 gcloud container clusters get-credentials nucleus-backend \
