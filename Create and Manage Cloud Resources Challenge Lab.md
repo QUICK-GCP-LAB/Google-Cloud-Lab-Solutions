@@ -8,8 +8,8 @@
 export INSTANCE=
 export PORT_NO=
 export FIREWALL=
-export ZONE=
 export REGION=
+export ZONE=
 ```
 
 ### Task 1. Create a project jumphost instance
