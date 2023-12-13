@@ -69,7 +69,7 @@ gcloud compute instance-groups managed create web-server-group \
 --region $REGION
 ```
 ```
-gcloud compute firewall-rules create $FIREWALL_RULE \
+gcloud compute firewall-rules create $FIREWALL \
        --allow tcp:80 \
 ```
 ```
@@ -102,7 +102,7 @@ gcloud compute target-http-proxies create http-lb-proxy \
        --url-map web-server-map
 ```
 ```
-gcloud compute forwarding-rules create $FIREWALL_RULE \
+gcloud compute forwarding-rules create $FIREWALL \
      --global \
      --target-http-proxy http-lb-proxy \
      --ports 80
