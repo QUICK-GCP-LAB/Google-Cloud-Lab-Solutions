@@ -70,7 +70,7 @@ gcloud compute instance-groups managed create web-server-group \
 ```
 ```
 gcloud compute firewall-rules create $FIREWALL \
-       --allow tcp:80 \
+       --allow tcp:80
 ```
 ```
 gcloud compute http-health-checks create http-basic-check
