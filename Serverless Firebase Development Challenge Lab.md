@@ -21,7 +21,7 @@ git clone https://github.com/rosera/pet-theory.git
 
 2. Click the Select `Native Mode` button.
 
-3. In the Select a location dropdown, Select `Nam5 (United States)` and then click `Create Database`.
+3. In the Select a location dropdown, Select `Nam5` `(United States)` and then click `Create Database`.
 
 ### Task 2. Populate the Database
 
