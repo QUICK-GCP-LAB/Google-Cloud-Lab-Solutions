@@ -1,6 +1,6 @@
 # Serverless Firebase Development: Challenge Lab || [GSP344](https://www.cloudskillsboost.google/focuses/14677?parent=catalog) ||
 
-## Solution [here]()
+## Solution [here](https://youtu.be/ksejFS8eMLs)
 
 #### Assign Veriables & Region
 
