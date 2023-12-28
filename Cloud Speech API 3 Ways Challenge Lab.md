@@ -18,19 +18,19 @@
 export API_KEY=""
  ```
  ```
-task_2_file_name="synthesize-text.txt"
+task_2_file_name=""
  
-task_3_request_file="request.json"
+task_3_request_file=""
  
-task_3_response_file="speech_response_fr.json"
+task_3_response_file=""
  
-task_4_sentence="これは日本語です。"
+task_4_sentence=""
  
-task_4_file="translated_response.txt"
+task_4_file=""
  
-task_5_sentence="Este%é%japonês."
+task_5_sentence=""
  
-task_5_file="detection_response.txt"
+task_5_file=""
 
 audio_uri="gs://cloud-samples-data/speech/corbeau_renard.flac"
  ```
