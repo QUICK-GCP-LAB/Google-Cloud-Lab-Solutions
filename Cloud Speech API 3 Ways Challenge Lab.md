@@ -16,8 +16,7 @@
 
 ```
 export API_KEY=""
- ```
- ```
+
 task_2_file_name=""
  
 task_3_request_file=""
