@@ -31,6 +31,8 @@ task_4_file="translated_response.txt"
 task_5_sentence="Este%é%japonês."
  
 task_5_file="detection_response.txt"
+
+audio_uri="gs://cloud-samples-data/speech/corbeau_renard.flac"
  ```
  
  ```
@@ -76,8 +78,6 @@ curl -H "Authorization: Bearer "$(gcloud auth application-default print-access-t
  ### Task 3. Perform speech to text transcription with the Cloud Speech API
 
 ```
-audio_uri="gs://cloud-samples-data/speech/corbeau_renard.flac"
-
 cat > "$task_3_request_file" <<EOF
 {
 "config": {
