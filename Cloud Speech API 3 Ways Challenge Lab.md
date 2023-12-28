@@ -111,7 +111,7 @@ echo "$response" > "$task_4_file"
 curl -s -X POST \
 -H "Authorization: Bearer $(gcloud auth application-default print-access-token)" \
 -H "Content-Type: application/json; charset=utf-8" \
--d "{\"q\": [\"$decoded_sentence\"]}" \
+-d "{\"q\": [\"$task_5_sentence\"]}" \
 "https://translation.googleapis.com/language/translate/v2/detect?key=${API_KEY}" \
 -o "$task_5_file"
 ```
