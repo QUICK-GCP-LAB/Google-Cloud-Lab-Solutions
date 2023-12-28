@@ -1,6 +1,6 @@
 # Cloud Speech API 3 Ways: Challenge Lab || [ARC132](https://www.cloudskillsboost.google/focuses/67215?parent=catalog) ||
 
-## Solution [here]()
+## Solution [here](https://youtu.be/uPtFVDPtW1o)
 
 ### Task 1: Create an API key
  
