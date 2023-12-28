@@ -32,9 +32,7 @@ task_5_sentence=""
 task_5_file=""
 
 audio_uri="gs://cloud-samples-data/speech/corbeau_renard.flac"
- ```
- 
- ```
+
 export PROJECT_ID=$(gcloud config get-value project)
  ```
 
