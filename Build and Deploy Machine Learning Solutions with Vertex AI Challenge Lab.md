@@ -1,6 +1,6 @@
 # Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab || [GSP354](https://www.cloudskillsboost.google/focuses/22019?parent=catalog) ||
 
-## Solution [here]()
+## Solution [here](https://youtu.be/-IVz_hpI4D0)
 
 ### Task 1: Create a Vertex Notebooks instance
 
@@ -34,7 +34,7 @@ cd training-data-analyst/quests/vertex-ai/vertex-challenge-lab
 pip install -U -r requirements.txt --user
 ```
 
-### For Tasks 3,4,5 & 6 Follow Video Instructions.
+### For Tasks 3,4,5 & 6 Follow [Video](https://youtu.be/-IVz_hpI4D0) Instructions.
 
 * *Note: This training can take around `30-40` minutes to train and deploy the model.*
 
