@@ -34,7 +34,7 @@ cd training-data-analyst/quests/vertex-ai/vertex-challenge-lab
 pip install -U -r requirements.txt --user
 ```
 
-### For Task 3,4,5 & 6 Follow Video Instruction
+### For Task 3,4,5 & 6 Follow Video Instructions.
 
 
 
