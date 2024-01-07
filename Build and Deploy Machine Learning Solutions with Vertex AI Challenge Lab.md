@@ -30,7 +30,8 @@ git clone https://github.com/QUICK-GCP-LAB/training-data-analyst
 1. Install the required packages for the lab:
 
 ```
-cd training-data-analyst/quests/vertex-ai/vertex-challenge-lab pip install -U -r requirements.txt --user
+cd training-data-analyst/quests/vertex-ai/vertex-challenge-lab
+pip install -U -r requirements.txt --user
 ```
 
 ### For Task 3,4,5 & 6 Follow Video Instruction
