@@ -4,7 +4,7 @@
 
 ### Task 1: Create a Vertex Notebooks instance
 
-1. Navigate to `Vertex AI` > `Workbench` > `User-Managed Notebooks`.
+1. Navigate to `Vertex AI` > `Workbench` > `Instances`.
 2. Click on the "`Create New`" button.
 3. Fill out the form with the following options:
 
