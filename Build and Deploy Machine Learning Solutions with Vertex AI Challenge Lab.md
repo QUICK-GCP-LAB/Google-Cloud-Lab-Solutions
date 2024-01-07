@@ -20,7 +20,7 @@
 
 ### Task 2: Download the challenge notebook
 
-1. In your notebook, click the terminal.
+1. In your notebook, click the `terminal`.
 2. Clone the repo by running the command:
 
 ```
@@ -34,7 +34,7 @@ cd training-data-analyst/quests/vertex-ai/vertex-challenge-lab
 pip install -U -r requirements.txt --user
 ```
 
-### For Task 3,4,5 & 6 Follow Video Instructions.
+### For Tasks 3,4,5 & 6 Follow Video Instructions.
 
 
 
