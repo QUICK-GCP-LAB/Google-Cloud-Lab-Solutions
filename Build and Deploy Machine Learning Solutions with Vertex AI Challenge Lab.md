@@ -36,7 +36,7 @@ pip install -U -r requirements.txt --user
 
 ### For Tasks 3,4,5 & 6 Follow Video Instructions.
 
-
+* *Note: This training can take around `30-40` minutes to train and deploy the model.*
 
 ### Congratulations 🎉 for Completing the Lab !
 
