@@ -13,7 +13,7 @@
 * Zone: Leave the value as default
 
 1. Click on `Environment`.
-2. Select `Use a previous version.` In the Version dropdown, select *tf-2-11-cu113-notebooks-v20230615-debian-11-py310 (M109).*
+2. Select `Use a previous version.` In the Version dropdown, select *workbench-instances-v20240214 (M117)*
 4. Click `Continue.`
 5. Select `e2-standard-4` as the Machine Type.
 6. Click `Create.`
