@@ -1,6 +1,6 @@
 # Analyze BigQuery data in Connected Sheets: Challenge Lab || [ARC103](https://www.cloudskillsboost.google/focuses/60443?locale=es&parent=catalog) ||
 
-## Solution [here]()
+## Solution [here](https://youtu.be/mTV3HuC56cM)
 
 ### Task 1. Open Google Sheets and connect to a BigQuery dataset
 
